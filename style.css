@@ -24,7 +24,7 @@ img {
   --header-height: 4.5rem;
 
   /* colors */
-  --hue: 240;
+  --hue: 226;
   /* HSL color mode */
   --base-color: hsl(var(--hue) 85% 50%);
   --base-color-second: hsl(var(--hue) 89% 54%);
@@ -32,7 +32,7 @@ img {
   --title-color: hsl(var(--hue) 41% 10%);
   --text-color: hsl(0 0% 46%);
   --text-color-light: hsl(0 0% 98%);
-  --body-color: hsl(0 0% 98%);
+  --body-color: rgb(255, 255, 255);
 
   /* fonts */
   --title-font-size: 1.875rem;
@@ -40,6 +40,7 @@ img {
 
   --title-font: 'Poppins', sans-serif;
   --body-font: 'DM Sans', sans-serif;
+max-width: 100%vh;
 }
 
 /*===  BASE ============================ */
