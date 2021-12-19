@@ -648,7 +648,12 @@ footer .social a:hover {
     align-items: center;
     justify-content: space-between;
   }
-
+ .contatos{
+  text-decoration: none;
+   }
+   a.contatos:link{
+    text-decoration: none;
+     }
   footer .logo {
     font-size: 2.25rem;
   }
@@ -659,6 +664,10 @@ footer .social a:hover {
   :root {
     --title-font-size: 2.25rem;
     --subtitle-font-size: 1.125rem;
+  }
+  .map{
+    width:600px; 
+    height: 450px;
   }
 }
 /* medium devices: 767 > */
