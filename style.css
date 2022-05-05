@@ -24,7 +24,7 @@ img {
   --header-height: 4.5rem;
 
   /* colors */
-  --hue: 226;
+  --hue: 38;
   /* HSL color mode */
   --base-color: hsl(var(--hue) 85% 50%);
   --base-color-second: hsl(var(--hue) 89% 54%);
@@ -146,9 +146,8 @@ body {
 /*====  LOGO ============================ */
 .logo {
   font: 700 1.31rem var(--title-font);
-  color: rgb(255, 238, 0);
-  text-shadow: 0.1em 0.1em 0.2em rgb(2, 2, 2);
-  
+  color: rgb(204, 45, 45);
+   
 }
 
 .logo-alt span {
@@ -648,12 +647,7 @@ footer .social a:hover {
     align-items: center;
     justify-content: space-between;
   }
- .contatos{
-  text-decoration: none;
-   }
-   a.contatos:link{
-    text-decoration: none;
-     }
+
   footer .logo {
     font-size: 2.25rem;
   }
@@ -665,9 +659,11 @@ footer .social a:hover {
     --title-font-size: 2.25rem;
     --subtitle-font-size: 1.125rem;
   }
-  .map{
-    width:600px; 
-    height: 450px;
-  }
 }
 /* medium devices: 767 > */
+
+.novo_produtos{
+  display: flex;
+  flex-direction: row;
+  ;
+}
